@@ -72,7 +72,7 @@ export default class Customize extends React.Component {
       DownloadButton = <a
         title="Generate lineup"
         className="CTA disabled"
-      >Add 11 players to create lineup</a>
+      >Ajoutez 11 joueurs pour générer l'équipe</a>
     } else if (this.props.downloadStatus === "create") {
       DownloadButton = <a
         title="Generate lineup"
@@ -81,19 +81,19 @@ export default class Customize extends React.Component {
           // Display loading message
           this.props.createCanvas()
         }}
-      >Get my lineup</a>
+      >Générer mon XI</a>
     } else if (this.props.downloadStatus === "loading") {
       DownloadButton = <a
         title="Generate lineup"
         className="CTA disabled"
-      >Creating lineup...</a>
+      >Création d'équipe...</a>
     } else {
       DownloadButton = <a
         title="Generate lineup"
         className="CTA"
         download="11builder"
         href={this.props.downloadLink}
-      >Donwload lineup as a PNG</a>
+      >Télécharger au format image</a>
     }
     return(
       <div className="Customize">
