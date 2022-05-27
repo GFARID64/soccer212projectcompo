@@ -104,7 +104,7 @@ export default class Pitch extends React.Component {
       <div className="Pitch">
         <img className="Outlines" src={pitchImage} alt="Pitch outlines"/>
         <div>
-          <div className="Signature">soccer.com</div>
+          <div className="Signature">soccer212.com</div>
           <div className="Trash">Déplacez un joueur hors du terrain pour l'enlever</div>
           <textarea
             className="EditLineupName"
