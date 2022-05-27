@@ -195,6 +195,7 @@ h1 {
 .Settings .Menu.Pitch-style {
   position: absolute;
   right: 0;
+  display : none;
 }
 
 .Settings .CTA {
