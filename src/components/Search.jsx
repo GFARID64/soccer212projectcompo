@@ -84,7 +84,7 @@ export default class Search extends React.Component {
           value={this.state.value}
           onFocus={() => { document.querySelector('.Results').style.display = 'block' }}
           onChange={this.updateSearch}
-          placeholder="Search for a player..."
+          placeholder="Choisissez un joueur..."
           autoFocus
         />
         <div className="Results" style={{
