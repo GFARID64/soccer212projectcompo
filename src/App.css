@@ -121,7 +121,7 @@ h1 {
 .Settings .Menu {
   margin: 0;
   box-sizing: border-box;
-  width: 162px;
+  width: 100%;
   line-height: 56px;
   height: 56px;
   display: inline-block;
