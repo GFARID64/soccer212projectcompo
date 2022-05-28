@@ -212,6 +212,7 @@ h1 {
   color: rgba(0, 0, 0, 0.95);
   cursor: pointer;
   box-shadow: 0 3px 6px 1px rgba(0, 0, 0, 0.06);
+  display: none;
 }
 
 .Pitch {
@@ -483,6 +484,7 @@ h1 {
     line-height: 45px;
     margin: 0 10px;
     width: calc(100% - 20px);
+    display: none;
   }
 
   .Pitch {
