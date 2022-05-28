@@ -99,6 +99,7 @@ h1 {
 
 .Settings .Result-player .Icon {
   right: 10px;
+  display: none;
 }
 
 .Settings .Results .Result-player .Name {
