@@ -50,7 +50,7 @@ export default class SearchResult extends React.Component {
           <p className="Name">{this.props.player.name}</p>
         }
         {this.props.player.rating === "0" &&
-          <p className="Name">Add "{this.props.player.name}"</p>
+          <p className="Name">Ajouter "{this.props.player.name}"</p>
         }
         <img
           className="Icon"
